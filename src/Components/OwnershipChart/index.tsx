@@ -51,7 +51,7 @@ function OwnershipsCharts() {
         let nakamotoCoefficientCounter = 0;
         for (let index = 0; index < sortedData.length; index++) {
           const validator = sortedData[index];
-          if (superminorityPercentage >= 35.5) {
+          if (superminorityPercentage >= 33.0) {
             validator.superminority = "Descentralized";
           } else {
             validator.superminority = "Superminority";
